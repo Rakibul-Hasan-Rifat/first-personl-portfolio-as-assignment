@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.banner{
+    width: 85%;
+    margin: 5% auto;
+    /* border: 1px solid red; */
+    height: 400px;
+}
+
+#second-banner{
+    margin-bottom: 50px;
+}
+
+.bnr-part{
+    float: left;
+    /* border: 1px solid lightblue; */
+    width: 50%;
+}
+
+#first-left{
+    margin-top: 30px;
+}
+
+.bnr-part h1{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.bnr-part h2, h2{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+#first-left #name, span{
+    color: rgb(248, 133, 113);
+}
+
+.bnr-part p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+#first-left p{
+    padding-right: 231px;
+}
+
+#first-right{
+    margin-top: -20px;
+    padding-left: 25px;
+}
+
+#second-left{
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+#second-right{
+    margin-top: 40px;
+    padding: 15px 45px;
+    letter-spacing: 1.1px;
+    clear: right;
+}
+
+#second-right p{
+    padding-right: 25px; 
+}
+
+.bnr-part > img{
+    width: 90%;
+}
+
+.btn{
+    font-size: 16px;
+    padding: 15px 35px;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to right, #FF8063
+    , #F46060);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+}
+
+#third-banner{
+    background-color: #E5E5E5;
+    /* border: 1px solid red; */
+    /* clear:both; */
+    margin: 100px 0 0;
+    height: 700px;
+    width: 100%;
+    padding-top: 25px;
+    /* padding: 120px; */
+}
+#third-banner .container{
+    width: 90%;
+    margin: 0px 110px;
+}
+
+#third-banner h2{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+
+#third-banner .container .card{
+    width: 30%;
+    float: left;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    margin: 0px 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray;
+    height: 50%;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#third-banner .container .card img{
+    width: 100%;
+}
+
+#third-banner .container .card h4{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    line-height: 35px;
+}
+
+#third-banner .container .card p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+}
+
+footer{
+    width: 75%;
+    margin: 100px auto;
+    padding: 180px 200px;
+    background-image: url("../shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 200px;
+    padding: 78px 150px;
+}
+
+footer h2{
+    float: left;
+    color: white;
+    font-size: 55px;
+}
+
+footer .btn{
+    float: right;
+}
